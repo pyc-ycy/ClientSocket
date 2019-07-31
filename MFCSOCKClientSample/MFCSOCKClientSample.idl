@@ -1,0 +1,29 @@
+﻿// MFCSOCKClientSample.idl: MFCSOCKClientSample.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(MFCSOCKClientSample.tlb)。
+
+[ uuid(8358e8ad-6858-4298-b05c-4fb98cb8ebfa), version(1.0) ]
+library MFCSOCKClientSample
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMFCSOCKClientSampleDoc 的主调度接口
+
+	[ uuid(cc2a7648-f571-415a-9d6c-7c347ecbacb2) ]
+	dispinterface IMFCSOCKClientSample
+	{
+		properties:
+
+		methods:
+	};
+
+	//  CMFCSOCKClientSampleDoc 的类信息
+
+	[ uuid(996e3a43-8bda-4703-8c6f-feb102d65095) ]
+	coclass MFCSOCKClientSample
+	{
+		[default] dispinterface IMFCSOCKClientSample;
+	};
+};
